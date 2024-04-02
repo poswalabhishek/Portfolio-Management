@@ -1,0 +1,11 @@
+**/__pycache__/
+analyst_tone/
+.DS_Store
+play.py
+.ipynb_checkpoints/
+.vscode/
+saved_arrays/
+news_df.csv
+eval/
+eval*
+secret_keys*

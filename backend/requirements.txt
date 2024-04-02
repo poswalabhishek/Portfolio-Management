@@ -1,0 +1,15 @@
+fastapi
+pymongo[srv]~=3.12
+gunicorn
+uvicorn
+finnhub-python
+apscheduler
+pandas
+torch
+coloredlogs
+yfinance
+fastapi
+gensim
+nltk
+scikit-learn
+transformers
