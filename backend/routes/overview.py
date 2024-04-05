@@ -3,9 +3,9 @@ from database import database as db
 from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
-from pydantic.json import ENCODERS_BY_TYPE
+# from pydantic.json import ENCODERS_BY_TYPE
 
-ENCODERS_BY_TYPE[np.int64] = lambda x: int(x)
+# ENCODERS_BY_TYPE[np.int64] = lambda x: int(x)
 
 router = APIRouter()
 
