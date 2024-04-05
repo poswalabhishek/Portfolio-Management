@@ -5,7 +5,7 @@ uvicorn
 finnhub-python
 apscheduler
 pandas
-#torch
+torch
 coloredlogs
 yfinance
 fastapi
