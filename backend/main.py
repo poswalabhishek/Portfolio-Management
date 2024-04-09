@@ -18,7 +18,8 @@ coloredlogs.install(level='INFO', fmt='%(asctime)s %(name)s[%(process)d] %(funcN
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "http://172.183.208.153"
 ]
 
 app.add_middleware(
