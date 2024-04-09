@@ -5,7 +5,7 @@ uvicorn
 finnhub-python
 apscheduler
 pandas
-#torch
+torch
 coloredlogs
 yfinance
 fastapi
@@ -13,3 +13,4 @@ gensim
 nltk
 scikit-learn
 transformers
+scipy==1.10.1
