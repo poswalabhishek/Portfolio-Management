@@ -3,8 +3,8 @@
 
 ### Running instructions:
 python version 3.8.x
-python -m pip install -r requirements.txt
-python run.py
+python3 -m pip install -r requirements.txt
+python3 run.py
 
 ### Project Structure Template ###
 https://github.com/Youngestdev/fastapi-mongo
