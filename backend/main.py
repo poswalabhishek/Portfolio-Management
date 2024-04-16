@@ -19,7 +19,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",
-    "http://172.183.208.153"
+    "http://fdra.efadrin.biz/"
 ]
 
 app.add_middleware(
