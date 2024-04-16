@@ -46,7 +46,7 @@ app.include_router(OverviewRouter, tags=["Overview"], prefix="/overview")
 scheduler = BackgroundScheduler()
 scheduler.add_job(
     daily_ingest_external_data_cron,
-    CronTrigger(minute='*')   #trigger 5am (21utc) everyday.
+    CronTrigger(hour='*')   #trigger 5am (21utc) everyday.
 )
 scheduler.add_job(
     daily_update_calculation_cron,
